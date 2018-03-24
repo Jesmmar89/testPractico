@@ -9,35 +9,133 @@ header{
    width:100%;
    height:500px;
 }
+h1{
+	text-align: center;
+	font-size: 65px;
+}
+.encabezado{
+	text-align: center;
+	position:absolute;
+	top: 7%;
+	left: 20%;
+}
+.btnblue{
+	background-color: #1d809f;
+	margin-top: 8%;
+	padding: 2%;
+	color: white;
+	border-radius: 5px;
+}
 h2{
 	text-align: center;
+	margin-top: 4%;
+}
+#sec1{
+	height: 250px;
+}
+#butonoffer{
+	color: white;
+	padding:1%;
+	background-color: black;
+	margin-left: 42%;
+	margin-top: 3%;
 }
 #psec1{
 	color:gray;
 	text-align: center;
+	margin-top: 2%;
+}
+h4{
+	color: #ecb807;
+	margin-top: 3%;
+	text-align: center;
+}
+h3{
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+p{
+	margin-top: 4%;
+}
+h5{
+	margin-top: 30%;
+}
+.sec2{
+	margin-top: 2%;
+	color: white;
+	text-align: center;
+}
+#sec3{
+	background-image: url("C:/Users/Jesmmar/Desktop/hubcamp/testPractico/img/4.jpg");
+	background-size: 100% 100%;
+	height: 450px;
+}
+#sec3div{
+	text-align: center;
+	position:absolute;
+	top: 39%;
+	left: 40%;
 }
 #stationary{
 	background-image: url("C:/Users/Jesmmar/Desktop/hubcamp/testPractico/img/1.jpg");
 	background-size: 100% 100%;
 	height:250px;
-
+	color: white;
+	margin-left: 10%;
 }
 #icecream{
 	background-image: url("C:/Users/Jesmmar/Desktop/hubcamp/testPractico/img/2.jpg");
 	background-size: 100% 100%;
 	height:250px;
+	color: white;
 }
 #strawberrys{
 	background-image: url("C:/Users/Jesmmar/Desktop/hubcamp/testPractico/img/3.jpg");
 	background-size: 100% 100%;
 	height:250px;
+	color: white;
+	margin-left: 10%;
+	margin-bottom: 10%
 }
 #workplace{
 	background-image: url("C:/Users/Jesmmar/Desktop/hubcamp/testPractico/img/4.jpg");
 	background-size: 100% 100%;
 	height:250px;
+	color: white;
+	margin-bottom: 10%;
 }
 .blue{
 	background-color:#1d809f; 
 	align-items: center;
+	height: 300px;
+	color: white;
+}
+#btnClick{
+	background-color: white;
+	color: black;
+	padding: 2%;
+	border-radius: 5px;
+	margin-top: 5%;
+	margin-left: 38%;
+}
+#btnMe{
+	background-color: black;
+	color:white;
+	padding: 2%;
+	border-radius: 5px;
+	margin-top: 5%;
+	margin-left: 2%;
+}
+#map{
+	height: 350px;
+}
+#footericons{
+	height: 80px;
+	margin-left: 35%;
+	margin-top: 5%;
+}
+footer p{
+	text-align: center;
+	color: salmon;
+	font-size: 12px;
 }
