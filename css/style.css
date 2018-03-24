@@ -10,8 +10,9 @@ header{
    height:500px;
 }
 h1{
-	text-align: center;
 	font-size: 65px;
+	animation-duration: 3s;
+    animation-name: slidein;
 }
 .encabezado{
 	text-align: center;
@@ -26,6 +27,10 @@ h1{
 	color: white;
 	border-radius: 5px;
 }
+.btnblue:hover{
+	background-color: #5DADE2;
+    color :#EBF5FB;
+}
 h2{
 	text-align: center;
 	margin-top: 4%;
@@ -33,14 +38,14 @@ h2{
 #sec1{
 	height: 250px;
 }
-#butonoffer{
+#sec1 button{
 	color: white;
 	padding:1%;
 	background-color: black;
 	margin-left: 42%;
 	margin-top: 3%;
 }
-#psec1{
+#sec1 p{
 	color:gray;
 	text-align: center;
 	margin-top: 2%;
@@ -70,7 +75,7 @@ h5{
 	background-size: 100% 100%;
 	height: 450px;
 }
-#sec3div{
+#sec3 div{
 	text-align: center;
 	position:absolute;
 	top: 39%;
@@ -126,11 +131,20 @@ h5{
 	margin-top: 5%;
 	margin-left: 2%;
 }
+
+#btnClick:hover{
+	background-color: black;
+	color:white;
+}
+#btnMe:hover{
+	background-color: white;
+	color: black;
+}
 #map{
 	height: 350px;
 }
 #footericons{
-	height: 80px;
+	height: 50px;
 	margin-left: 35%;
 	margin-top: 5%;
 }
@@ -138,4 +152,16 @@ footer p{
 	text-align: center;
 	color: salmon;
 	font-size: 12px;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
